@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:0;
+    text-align: center;
+}
+.container div{
+   margin-bottom:0.4rem;
+}
+.name-lebel, .tweet-lebel{
+    margin-left:-22rem; 
+    font-size: larger ;
+}
+input{
+    width:30%;
+    padding:.3rem 0;
+
+}
+.title{
+    color:blue;
+}
+#button{
+    padding:.6rem 1rem;
+    width:20%;
+    text-transform: capitalize;
+    background:green;
+    font-size:larger;
+    color:white;
+    border-radius:15px;
+    outline:none;
+    margin-top:0.4rem;
+    margin-left:-8rem;
+    margin-bottom:0.5rem;
+}
+#button:hover, #button:focus{
+background:blue;
+}
+.loading{
+    padding:2rem;
+}
+.whole{
+    text-align: left;
+    max-width:40% ;
+    padding:1rem;
+    background-color:green;
+    color:white;
+    margin-left: 2rem;
+    font: size 10;
+}
+.delete{
+    padding:0.4rem;
+    margin:1rem;
+    background:red;
+    color:white;
+    border-radius: 13px;
+}
